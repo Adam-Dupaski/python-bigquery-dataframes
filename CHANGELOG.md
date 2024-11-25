@@ -4,6 +4,30 @@
 
 [1]: https://pypi.org/project/bigframes/#history
 
+## [1.28.0](https://github.com/googleapis/python-bigquery-dataframes/compare/v1.27.0...v1.28.0) (2024-11-25)
+
+
+### Features
+
+* (Series | DataFrame).plot.bar ([#1152](https://github.com/googleapis/python-bigquery-dataframes/issues/1152)) ([0fae2e0](https://github.com/googleapis/python-bigquery-dataframes/commit/0fae2e0291ec8d22341b5b543e8f1b384f83cd3c))
+* `bigframes.bigquery.vector_search` supports `use_brute_force` and `fraction_lists_to_search` parameters ([#1158](https://github.com/googleapis/python-bigquery-dataframes/issues/1158)) ([131edc3](https://github.com/googleapis/python-bigquery-dataframes/commit/131edc3d79f46d35a25422f0db7f150e63e8f561))
+* Add client_endpoints_override to bq options ([#1167](https://github.com/googleapis/python-bigquery-dataframes/issues/1167)) ([be74b99](https://github.com/googleapis/python-bigquery-dataframes/commit/be74b99977cfbd513def5b7e439de6b7706c0712))
+
+
+### Bug Fixes
+
+* Fix error loading local dataframes into bigquery ([#1165](https://github.com/googleapis/python-bigquery-dataframes/issues/1165)) ([5b355ef](https://github.com/googleapis/python-bigquery-dataframes/commit/5b355efde122ed76b1cff39900ab8f94f5a13a30))
+* Fix null index join with 'on' arg ([#1153](https://github.com/googleapis/python-bigquery-dataframes/issues/1153)) ([9015c33](https://github.com/googleapis/python-bigquery-dataframes/commit/9015c33e73675ebb2299487dce3295732ea0527e))
+
+
+### Documentation
+
+* Add a code sample using `bpd.options.bigquery.ordering_mode = "partial"` ([#909](https://github.com/googleapis/python-bigquery-dataframes/issues/909)) ([f80d705](https://github.com/googleapis/python-bigquery-dataframes/commit/f80d70503b80559a0b1fe64434383aa3e028bf9b))
+* Add snippet for creating boosted tree model ([#1142](https://github.com/googleapis/python-bigquery-dataframes/issues/1142)) ([a972668](https://github.com/googleapis/python-bigquery-dataframes/commit/a972668833a454fb18e6cb148697165edd46e8cc))
+* Add snippet for evaluating a boosted tree model ([#1154](https://github.com/googleapis/python-bigquery-dataframes/issues/1154)) ([9d8970a](https://github.com/googleapis/python-bigquery-dataframes/commit/9d8970ac1f18b2520a061ac743e767ca8593cc8c))
+* Add snippet for predicting classifications using a boosted tree model ([#1156](https://github.com/googleapis/python-bigquery-dataframes/issues/1156)) ([e7b83f1](https://github.com/googleapis/python-bigquery-dataframes/commit/e7b83f166ef56e631120050103c2f43f454fce44))
+* Fix Bigframes.Pandas.General_Function missing docs ([#1164](https://github.com/googleapis/python-bigquery-dataframes/issues/1164)) ([de923d0](https://github.com/googleapis/python-bigquery-dataframes/commit/de923d01b904b96cc51dfd526b6a412f28ff10c4))
+
 ## [1.27.0](https://github.com/googleapis/python-bigquery-dataframes/compare/v1.26.0...v1.27.0) (2024-11-16)
 
 
